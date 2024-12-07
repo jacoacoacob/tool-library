@@ -1,1 +1,15 @@
+cat << EOF
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ Linting commit message  ~ 
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+Learn more about the Conventional Commits standard here
+https://www.conventionalcommits.org/en/v1.0.0/#summary
+or by running 'npm run commit' for an interactive commit
+message composition experience.
+
+EOF
+
+
 npx --no -- commitlint --edit $1
